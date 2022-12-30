@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Star } from './Star'
 
 export function StarRating({ totalStars = 5, selectedStars = 0, onRate }) {
