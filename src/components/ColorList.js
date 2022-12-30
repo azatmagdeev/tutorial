@@ -7,7 +7,7 @@ export default function ColorList() {
 
     const {colors} = useColors();
 
-    if (!colors.length) return <div>No Colors Listed.</div>;
+    if (!colors?.length) return <div>No Colors Listed.</div>;
 
     return (
         <div>
